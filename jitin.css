@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;*/
+    background-color: azure;
+  }
+
+#submit {
+    color: blue;
+}
+#submit:hover {
+    border-color: #f1ff5c;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+
+#sec {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: azure;
+  }
+
+#section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 500px;
+
+}
+#submit {
+    color: blue;
+}
+#submit:hover {
+    border-color: #f1ff5c;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+
+
+
+#three  {
+    padding: 5px 10px;
+}
+#four {
+    padding: 5px 10px;
+}
+#five {
+    padding-top: 40px;
+}
+
+#selection {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
